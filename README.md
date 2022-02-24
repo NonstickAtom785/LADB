@@ -1,6 +1,26 @@
 # LADB
 A local ADB shell for Android!
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## Installation
+Requirements:
+* Gradle
+* Git/Github CLI/GitHub Desktop (Download from Gradle website)
+
+
+```
+git clone https://github.com/tytydraco/LADB.git
+```
+or
+```
+gh repo clone tytydraco/LADB
+```
+
+=======
+>>>>>>> cb70b18 (Reworded a lot of the readme)
+>>>>>>> pr/59
 ## Overview
 LADB is undled with an pre-compiled ADB library modified
 for the Android architecture. It functions as a bridge connecting the device
@@ -62,12 +82,27 @@ See issue [#57](https://github.com/tytydraco/LADB/issues/57)
 _Some of the Settings labels may differ depending on your
 phones model and Android version. As of writing this
 I'm using stock AOSP Android 11 - NonstickAtom_
+<<<<<<< HEAD
 
 
 ----
 
 # Credit
 Thanks to [Surge1223](https://github.com/Surge1223) for compiling ADB for the ARM/ARM64 architecture.
+=======
+<<<<<<< HEAD
+
+# Credit
+Thanks to Surge1223 for precompiling ADB for the ARM/ARM64 architecture.
+=======
+
+
+----
+
+# Credit
+Thanks to [Surge1223](https://github.com/Surge1223) for compiling ADB for the ARM/ARM64 architecture.
+>>>>>>> cb70b18 (Reworded a lot of the readme)
+>>>>>>> pr/59
 
 # License
 While this project is GPLv3 licensed, I would like to add an additional parameter: please do not publish unofficial (user) LADB builds to the Google Play Store.
